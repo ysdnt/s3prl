@@ -39,12 +39,12 @@ downstream_expert:
     # train_meta_data: /content/gdrive/MyDrive/KLTN/dataset/vivos/train/train_list_id.txt
     
     # mix
-    file_path: /content/gdrive/MyDrive/KLTN/dataset/mix
-    train_meta_data: ../../../dataset/mix/speaker_id_mix.txt    
+    file_path: /kaggle/input/
+    train_meta_data: /kaggle/working/s3prl/s3prl/downstream/sv_voxceleb1/configs/speaker_id_mix.txt
 
     # swapped
-    dev_meta_data: ../../../dataset/zalo_dataset/dataset_fix/veri_val.txt
-    test_meta_data: ../../../dataset/zalo_dataset/dataset_fix/veri_val.txt
+    dev_meta_data: /kaggle/working/s3prl/s3prl/downstream/sv_voxceleb1/configs/veri_val.txt
+    test_meta_data: /kaggle/working/s3prl/s3prl/downstream/sv_voxceleb1/configs/veri_val.txt
 
     # VoxCeleb1
     # file_path: /content/gdrive/MyDrive/KLTN/dataset/voxceleb1
