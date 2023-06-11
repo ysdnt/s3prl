@@ -59,9 +59,9 @@ class DownstreamExpert(nn.Module):
         # train_file_path = Path(self.datarc['file_path']) / "train"
         # test_file_path = Path(self.datarc['file_path']) / "val"
 
-        train_file_path_voxceleb = Path(self.datarc['file_path']) / "train_voxceleb" / "train"
-        train_file_path_zalo = Path(self.datarc['file_path']) / "train_zalo" / "train"
-        test_file_path = Path(self.datarc['file_path']) / "val"
+        train_file_path_voxceleb = Path(self.datarc['file_path']) / "voxceleb1" / "vox1_dev_wav" / "wav"
+        train_file_path_zalo = Path(self.datarc['file_path']) / "zalo-sv" / "zalo_dataset" / "train"
+        test_file_path = Path(self.datarc['file_path']) / "zalo-sv" / "zalo_dataset" / "val"
 
         #test_file_path = "/content/gdrive/MyDrive/KLTN/dataset/zalo_dataset/dataset_fix/val"
         #train_file_path = Path(self.datarc['file_path']) / "train"
